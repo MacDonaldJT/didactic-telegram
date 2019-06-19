@@ -1,0 +1,16 @@
+def arrange(sentence):
+    
+    sentence = sentence.replace(".","")
+    sentence = sentence.lower()
+    myList = sentence.split()
+    myList.sort(key=len)
+    str1 = " ".join(myList)
+    str1 = str1.capitalize()
+    str1 = str1 + "."
+    
+    
+    
+   
+        
+        
+    return str1
